@@ -5125,6 +5125,28 @@ pandas = ">=1.3.5,<2.0.0"
 tqdm = ">=4.62.3,<5.0.0"
 
 [[package]]
+name = "tslearn"
+version = "0.6.2"
+description = "A machine learning toolkit dedicated to time-series data"
+optional = false
+python-versions = "*"
+files = [
+    {file = "tslearn-0.6.2-py3-none-any.whl", hash = "sha256:a53f417b2495c8b21d2df1c7fd556fcc5fc5a2559cbc2c63118f67e324ef6a61"},
+    {file = "tslearn-0.6.2.tar.gz", hash = "sha256:8640e9a5147d51f5d2776ef9ea7cbec901fc19534c970cee4c3e76e7961dd147"},
+]
+
+[package.dependencies]
+joblib = "*"
+numba = "*"
+numpy = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[package.extras]
+pytorch = ["torch"]
+tests = ["pytest", "torch"]
+
+[[package]]
 name = "typeguard"
 version = "2.13.3"
 description = "Run-time type checker for Python"
@@ -5626,4 +5648,4 @@ unicode = ["tangled-up-in-unicode (==0.2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10,<3.11"
-content-hash = "b898a7673a53517edb5697d7adf5ccb91213b5456c8f37a61fdd6f34fa0233b0"
+content-hash = "ece7a87dbf2b82e3ae85fdc364cd3d5daeb202d833419b3dfbb5eaa5981f8c59"

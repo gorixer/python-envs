@@ -63,6 +63,7 @@ faiss-gpu = "^1.7.2"
 sentence-transformers = "^2.2.2"
 blingfire = "^0.1.8"
 wikiextractor = "^3.0.6"
+tslearn = "^0.6.2"
 
 
 [[tool.poetry.source]]
