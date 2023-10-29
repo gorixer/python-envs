@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
+=======
+*.zip
+
+>>>>>>> 96625f0 (Add Env files)
 # C extensions
 *.so
 
@@ -122,6 +127,10 @@ celerybeat.pid
 # Environments
 .env
 .venv
+<<<<<<< HEAD
+=======
+*.venv
+>>>>>>> 96625f0 (Add Env files)
 env/
 venv/
 ENV/

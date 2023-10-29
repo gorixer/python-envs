@@ -1,0 +1,12 @@
+・torch-geometric関係
+torch_geometricを利用するには'23/07/16時点でpoetryに対応していないモジュールをインストールする必要がある。(公式参照https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
+# Optional dependencies:
+# poetry run pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+
+
+を実施する必要がある。上記はpoetryで追うことができない。
+
+
+
+・scikit-surprise
+# poetry run pip install scikit-surprise
